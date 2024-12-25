@@ -16,6 +16,7 @@ public class Main {
         ChromeDinosaur chromeDinosaur = new ChromeDinosaur();
         frame.add(chromeDinosaur);
         frame.pack();
+        chromeDinosaur.requestFocus();
         frame.setVisible(true);
     }
 }
