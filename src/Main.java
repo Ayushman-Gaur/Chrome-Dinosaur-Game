@@ -11,5 +11,11 @@ public class Main {
         frame.setLocationRelativeTo(null);
         frame.setResizable(false);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+
+        ChromeDinosaur chromeDinosaur = new ChromeDinosaur();
+        frame.add(chromeDinosaur);
+        frame.pack();
+        frame.setVisible(true);
     }
 }
