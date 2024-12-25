@@ -1,2 +1,5 @@
-public class ChromeDinosaur {
+import javax.swing.*;
+
+public class ChromeDinosaur extends JPanel {
+    
 }
